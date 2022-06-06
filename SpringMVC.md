@@ -20,7 +20,7 @@
 4. Dispatcher Servlet tim viewName
 5. View ket hop voi model tra ve cho nguoi dung duoi dang respone
 
-
+- IoC container : dung de khoi tao doi tuong tu 1 class, cau hinh, quan ly va dieu phoi cac doi tuong bean trong chuong trinh
 - Bean : la cac doi tuong duoc khoi tao tu 1 class, Ton tai trong khung lam viec cua request, session, appication context
   + Singleton: 1 doi tuong duy nhat trong IoC. hay dung
   + Prototype: 1 doi tuong moi duoc tao ra khi goi den bean. it dung
