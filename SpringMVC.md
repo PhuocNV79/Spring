@@ -6,7 +6,7 @@
 3. Maven giup download va quan ly cac thu vien (dependencies) cua project
 4. Maven quan ly cac ban build, thong tin Team, phien ban
 5. Chu ky song cua Maven:
-  + POM.xml : file cau hinh
+  + POM.xml : file cau hinh cua du an, file pom.xml la noi khai bao cac dependency, version cua du an, ten du an ...
   + Build: Tep lenh maven
   + Dependencies: thu vien can dung trong project
   + Repository: Noi luu tru thu vien
