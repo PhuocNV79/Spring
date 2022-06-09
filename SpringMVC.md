@@ -1,4 +1,8 @@
-# SPRING MVC
+# SPRING MVC : la 1 phan cua spring framework
+
+- Spring mvc ho tro Inversion of controll va Dependency Injection
+- Spring mvc su dung DispatcherServlet de don request de xu ly
+- cong cu xu ly dua vao @Controller va @RequestMapping annotations
 
 ## Maven
 1. Định nghĩa : Maven là công dung de quan ly project Spring MVC
@@ -24,6 +28,19 @@
 - Bean : la cac doi tuong duoc khoi tao tu 1 class, Ton tai trong khung lam viec cua request, session, appication context
   + Singleton: 1 doi tuong duy nhat trong IoC. hay dung
   + Prototype: 1 doi tuong moi duoc tao ra khi goi den bean. it dung
+## Y nghia cac annotations
+- @Controller: chi dinh class nao do lam trung tam dieu khien, xu ly request va tra ve response
+- @RequestMapping: khai bao o tren method, chi dinh phuong thuc HTTP nao se duoc ap dung cho method va URL cua request
+    + @GetMapping: 1 cach ngan gon hon khi dung phuong thuc HTTP GET
+    + @PostMapping:  tuong tu
+- Cac property trong @GetMappng, @PostMapping : path="", consumes="", produces="" ..., tim hieu them
+- @RequestBody: la gi???
+
+## ViewResolver and View : 2 interface
+- Day la 2 interface quan trong duoc Spring su dung de xu ly views
+- ViewResolver cung cap mapping giua view names va acutal views
+- View : ????
+- Resolving Views thuong tra ve String, View hoac ModelAndView instance;
 - 
 
 
