@@ -2,7 +2,7 @@
 - **Project** : Dai dien cho nhung viec can hoan thanh, vi du nhu trien khai du an
 - **Gradle project** yeu cau 1 tap hop nhung task can de thuc thi.
 - **task** : de cap den nhung viec duoc thuc hien boi 1 build. No co the la compiling source, create JAR file, tao Javadoc
-- 
+- **Build Scripts** : no chinh la build.gradle va nam o thu muc goc cua file project
 - 
 
 
