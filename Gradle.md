@@ -19,4 +19,15 @@
 - Build sript containt 1 or more task 
 - Groovy : use JVM to run
 
+## Gradle Command
+
+- `gradle tasks` : Hien list task trong project
+- `gradle clean` : ...
+- `gradle clean build` : ...
+- `gradle clean build --info` : ...
+
+## Gradle project in Eclipse
+
+- 
+
 
